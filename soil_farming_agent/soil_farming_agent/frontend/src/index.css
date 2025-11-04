@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Shared professional UI component classes */
+.container-pro {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card-pro {
+  @apply bg-white rounded-xl border border-gray-200 shadow-sm transition-shadow hover:shadow-md;
+}
+
+.section-title {
+  @apply text-2xl font-semibold text-gray-900 tracking-tight;
+}
+
+.section-subtitle {
+  @apply text-sm text-gray-600;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg bg-emerald-600 text-white px-4 py-2 font-medium shadow-sm hover:bg-emerald-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 transition-colors;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-lg bg-teal-600 text-white px-4 py-2 font-medium shadow-sm hover:bg-teal-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 transition-colors;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white text-gray-700 px-4 py-2 font-medium hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-300 transition-colors;
+}
+
+.input-field {
+  @apply w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-emerald-500 focus:ring-emerald-500;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-emerald-50 text-emerald-700 text-xs font-medium px-2.5 py-0.5;
+}
+
+.chip {
+  @apply inline-flex items-center rounded-full border border-gray-200 bg-gray-100 text-gray-700 text-xs font-medium px-2.5 py-0.5;
+}
